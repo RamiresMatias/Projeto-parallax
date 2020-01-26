@@ -1,0 +1,72 @@
+/*Configurações padrões da página*/
+
+body,html{
+	margin: 0;
+	font: 16px "Lato",sans-serif;
+	color: #777;
+	height: 100%;
+
+}
+.conteudo{
+	color:#777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+.conteudo h3{
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+/*-----------------------------------*/
+
+/*Efeito parallax*/
+
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5, .imagem6{
+	position: relative;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.imagem1{
+	background-image: url('https://i.ibb.co/BT8sHq6/imagem1.jpg');
+
+}
+.imagem2{
+	background-image: url('https://i.ibb.co/HnQxxJm/imagem2.jpg');
+
+}
+.imagem3{
+	background-image: url('https://i.ibb.co/Vp2NRWc/imagem3.jpg');
+
+}
+.imagem4{
+	background-image: url('https://i.ibb.co/nC3dMbm/imagem4.jpg" alt="imagem4');
+
+}
+.imagem5{
+	background-image: url('https://i.ibb.co/cF6SrJQ/imagem5.jpg');
+
+}
+.imagem6{
+	background-image: url('https://i.ibb.co/crbtfkv/imagem6.jpg');
+
+}
+.conteudo-titulo{
+	position: absolute;
+	top: 45%;
+	left:0%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span{
+	color: #fff;
+	background-color:#111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
